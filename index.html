@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWITTER CLONE</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        /* .material-symbols-outlined {
+            font-size: inherit;
+        } */
+        .custom-icon-size {
+            @apply text-4xl;
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white m-0 p-0 ">
+
+    <!-- ////////////////////////////////OVERALL PAGE//////////////////////////////////// -->
+    <div class="flex justify-center ">
+
+        <!-- ////////////////////////////////FIRST BOX//////////////////////////////////// -->
+        <div class="first flex  w-1/4 justify-center ">
+            <div class="list justify-center  ">
+                <ul
+                    class="space-y-1.5 p-3 font-semibold text-gray-300 flex flex-col justify-center text-center  sticky top-0 ">
+                    <li class="">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="invert my-3 w-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 10.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.107z">
+                                </path>
+                            </g>
+                        </svg>
+                    </li>
+                    <li
+                        class="hover:bg-gray-500 transition-all duration-200 ease-in-out cursor-pointer rounded-3xl p-1.5 flex text-center  ">
+                        <span class="material-symbols-outlined " ">
+                            home
+                        </span>Home
+                    </li>
+                    <li
+                        class=" hover:bg-gray-500 transition-all duration-200 ease-in-out cursor-pointer rounded-3xl
+                            p-1.5 flex text-center ">
+                        <span class=" material-symbols-outlined">
+                            Explore
+                        </span>Explore
+                    </li>
+                    <li
+                        class="hover:bg-gray-500 transition-all duration-200 ease-in-out cursor-pointer rounded-3xl p-1.5 flex text-center  ">
+                        <span class="material-symbols-outlined">
+                            Notifications
+                        </span>Notifications
+                    </li>
+                    <li
+                        class="hover:bg-gray-500 transition-all duration-200 ease-in-out cursor-pointer rounded-3xl p-1.5 flex text-center  ">
+                        <span class="material-symbols-outlined">
+                            Message
+                        </span>Messages
+                    </li>
+                    <li
+                        class="hover:bg-gray-500 transition-all duration-200 ease-in-out cursor-pointer rounded-3xl p-1.5 flex text-center  ">
+                        <span class="material-symbols-outlined">
+                            indeterminate_check_box
+                        </span>
+                        Grok
+                    </li>
+                    <li
+                        class="hover:bg-gray-500 transition-all duration-200 ease-in-out cursor-pointer rounded-3xl p-1.5 flex text-center  ">
+                        <span class="material-symbols-outlined">
+                            group
+                        </span>Communities
+                    </li>
+                    <li
+                        class="hover:bg-gray-500 transition-all duration-200 ease-in-out cursor-pointer rounded-3xl p-1.5 flex text-center  ">
+                        <span class="material-symbols-outlined">
+                            Account_circle
+                        </span>Profile
+                    </li>
+                    <li
+                        class="hover:bg-gray-500 transition-all duration-200 ease-in-out cursor-pointer rounded-3xl p-1.5 flex text-center  ">
+                        <span class="material-symbols-outlined">
+                            More
+                        </span>More
+                    </li>
+                    <div class=""><button class="bg-[#34aee5] text-white font-bold text-sm border
+                    border-none rounded-full p-3 px-16">Post</button></div>
+
+                    <div class="flex h-16 pt-16">
+                        <div class="p-3 sticky bottom-0"><img class="w-8 border rounded-full"
+                                src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png"
+                                alt="">
+                        </div>
+                        <div class=" two_Heading pt-2">
+                            <div class=" ">
+                                <div>&nbspHimanshu_16</div>
+                                <div class="text text-xs font-normal text-gray-500">&nbsp@itz_himanshu16.Jul 7</div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!-- ////////////////////////////////SECOND BOX//////////////////////////////////// -->
+
+        <div class="second w-2/4 border border-gray-700 border-y-0 ">
+
+            <!-- ///////////////////FOR YOU BOX//////////////////////// -->
+            <div class="flex text-center p-2 sticky bg-black top-0">
+                <div class="foryou w-1/2 text-gray-400 text-sm font-semibold">For You</div>
+                <div class="foryou w-1/2 text-gray-400 text-sm font-semibold">Following</div>
+            </div>
+
+            <!-- ///////////////////WHAT IS HAPPENING //////////////////////// -->
+            <div class="flex border border-gray-700 border-x-0 p-1">
+                <div class="p-3"><img class="w-8 border rounded-full"
+                        src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="">
+                </div>
+                <div class="flex flex-col">
+
+
+                    <div class="font-semibold ">
+                        <input type="text" name="" id="" class="bg-black text-xl  border-none p-2 w-full"
+                            placeholder="What's Happening ??">
+                    </div>
+
+
+                    <div class="flex justify-between items-center w-96 py-2">
+                        <div class="zzzz allbuttons flex ml-3 mt-4 mb-0 gap-3 text-[#7cc7ea]">
+                            <span class="material-symbols-outlined cursor-pointer " style="font-size: 20px;">Mms</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 20px;">gif_box</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 20px;">Page_info</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 20px;">sentiment_satisfied</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 20px;">Calendar_month</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 20px;">location_on</span>
+                        </div>
+                        <div><button class="bg-[#34aee5] text-white font-bold text-sm border
+                                        border-none rounded-2xl p-1 px-4">Post</button></div>
+                    </div>
+                </div>
+            </div>
+            <!-- ///////////////////SHOW MORE POST//////////////////////// -->
+
+            <div
+                class="flex border border-gray-700 border-x-0 text-[#3e95be]  justify-center font-semibold cursor-pointer text-xs p-2 w-full">
+                Show More Posts</div>
+
+            <!-- //////////////////FIRST POST//////////////////////// -->
+            <div class="firstpost flex flex-col ">
+                <div class="flex font-bold text-sm border border-gray-700 border-x-0">
+                    <div class="p-3"><img class="w-8 border rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="">
+                    </div>
+                    <div class=" two_Heading pt-2">
+                        <div class="flex items-center">
+                            <div>Himanshu_16</div>
+                            <div class="text text-xs font-normal text-gray-500">&nbsp@itz_himanshu16.Jul 7</div>
+                        </div>
+                        <div class="font-normal font-mono">NAINITAL!!!❣️</div>
+                        <div><img class="w-[36vw] border rounded-lg border-none" src="img/123.jpg" alt=""></div>
+                        <div class="extrabutt flex w-96 justify-between p-4">
+                            <div class="zzzz "><span class="material-symbols-outlined cursor-pointer "
+                                    style="font-size: 18px;">Comment</span>1,25</div>
+                            <div class=""><span class="material-symbols-outlined cursor-p " style="font-size: 18px;" ointer
+                                style="font-size: 18px;">autorenew</span>56</div>
+                                <div><span class="material-symbols-outlined cursor-pointer "
+                                style="font-size: 18px;">favorite</span>94</div>
+                                <div><span class="material-symbols-outlined cursor-pointer "
+                                style="font-size: 18px;">Monitoring</span>10.5k</div>
+                                <div><span class="material-symbols-outlined cursor-pointer "
+                                style="font-size: 18px;">Bookmark</span>942</div>
+                                <div><span class="material-symbols-outlined cursor-pointer "
+                                style="font-size: 18px;">Upload</span>12</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ///////////////////SECOND POST//////////////////////// -->
+
+                <div class="flex font-bold text-sm border border-gray-700 border-x-0">
+                    <div class="p-3"><img class="w-8 border rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="">
+                    </div>
+                    <div class=" two_Heading pt-2">
+                        <div class="flex items-center">
+                            <div>Himanshu_16</div>
+                            <div class="text text-xs font-normal text-gray-500">&nbsp@itz_himanshu16.Jul 7</div>
+                        </div>
+                        <div class="font-normal font-mono">NAINITAL!!!❣️</div>
+                        <div><img class="w-[36vw] border rounded-lg border-none" src="img/123.jpg" alt=""></div>
+                        <div class="extrabutt flex w-96 justify-between p-4">
+                            <div><span class="material-symbols-outlined cursor-pointer"
+                                    style="font-size: 18px;">Comment</span></div>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 18px;">autorenew</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 18px;">favorite</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 18px;">Monitoring</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 18px;">Bookmark</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 18px;">Upload</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- ///////////////////THIRD POST//////////////////////// -->
+
+
+                <div class="flex font-bold text-sm border border-gray-700 border-x-0">
+                    <div class="p-3"><img class="w-8 border rounded-full"
+                            src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="">
+                    </div>
+                    <div class=" two_Heading pt-2">
+                        <div class="flex items-center">
+                            <div>Himanshu_16</div>
+                            <div class="text text-xs font-normal text-gray-500">&nbsp@itz_himanshu16.Jul 7</div>
+                        </div>
+                        <div class="font-normal font-mono">NAINITAL!!!❣️</div>
+                        <div><img class="w-[36vw] border rounded-lg border-none" src="img/123.jpg" alt=""></div>
+                        <div class="extrabutt flex w-96 justify-between p-4">
+                            <div><span class="material-symbols-outlined cursor-pointer"
+                                    style="font-size: 18px;">Comment</span></div>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 18px;">autorenew</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 18px;">favorite</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 18px;">Monitoring</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 18px;">Bookmark</span>
+                            <span class="material-symbols-outlined cursor-pointer"
+                                style="font-size: 18px;">Upload</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- ////////////////////////////////THIRD BOX//////////////////////////////////// -->
+
+
+        <div class="third w-1/3  mx-8 sticky top h-[110vh] overflow-y-auto ">
+            <!-- ///////////////////STICKY HEADING//////////////////////// -->
+
+
+
+            <!-- ///////////////////SEARCH BUTTON//////////////////////// -->
+            <div class="flex cursor-pointer p-1.5 pl-4 rounded-full my-2 bg-[rgb(32,35,39)] gap-2"><span
+                    class="material-symbols-outlined">Search</span>
+                <input type="search" class="bg-[rgb(32,35,39)] w-full text-xs outline-none" placeholder="Search">
+            </div>
+            <!-- /////////////////// FIRST BOX//////////////////////// -->
+            <div class="heading border rounded-lg border-gray-700 font-bold p-2 ">
+                <div class="my-2">What's Happening</div>
+                <div class="my-2">
+                    <div class="zzzz subhead flex text-gray-500 font-semibold text-[10px] justify-between ">
+                        Entertainment.Trending<span class="material-symbols-outlined h-4 w-4"
+                            style="font-size: 16px;">Steppers</span></div>
+                    <div class="mainhead text-xs font-bold">#BiggBossOTT3</div>
+                    <div class="mainhead   text-gray-500 font-semibold text-[10px]">Trending with #SaiKetanRao
+                        #BiggBossOTT3</div>
+                    <div class="my-2">
+                        <div class="subhead flex text-gray-500 font-semibold text-[10px] justify-between ">
+                            Entertainment.Trending<span class="material-symbols-outlined h-4 w-4"
+                                style="font-size: 16px;">Steppers</span></div>
+                        <div class="mainhead text-xs font-bold">#VishalPandey</div>
+                        <div class="mainhead   text-gray-500 font-semibold text-[10px]">Trending with
+                            #KritikaMalik
+                        </div>
+                        <div class="my-2">
+                            <div class="subhead flex text-gray-500 font-semibold text-[10px] justify-between ">
+                                Trending in India<span class="material-symbols-outlined h-4 w-4"
+                                    style="font-size: 16px;">Steppers</span>
+                            </div>
+                            <div class="mainhead text-xs font-bold">#Encounter</div>
+                            <div class="mainhead text-gray-500 font-semibold text-[10px]">2,736 posts</div>
+                            <div class="my-2">
+                                <div class="subhead flex text-gray-500 font-semibold text-[10px] justify-between ">
+                                    Trending<span class="material-symbols-outlined h-4 w-4"
+                                        style="font-size: 16px;">Steppers</span></div>
+                                <div class="mainhead text-xs font-bold">Pune</div>
+                                <div class="mainhead  text-gray-500 font-semibold text-[10px]">7,254 posts
+                                </div>
+                                <div class="my-2">
+                                    <div class="subhead flex text-gray-500 font-semibold text-[10px] justify-between ">
+                                        Trending<span class="material-symbols-outlined h-4 w-4"
+                                            style="font-size: 16px;">Steppers</span></div>
+                                    <div class="mainhead text-xs font-bold">#Thala</div>
+                                    <div class="mainhead  text-gray-500 font-semibold text-[10px]">45.6k posts
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ///////////////////SECOND BOX//////////////////////// -->
+
+            <div class="heading border rounded-lg border-gray-700 font-bold p-2 my-2 ">
+                <div class="my-2">What's Happening</div>
+                <div class="my-2">
+                    <div class="subhead flex text-gray-500 font-semibold text-[10px] justify-between ">
+                        Entertainment.Trending<span class="material-symbols-outlined h-4 w-4"
+                            style="font-size: 16px;">Steppers</span></div>
+                    <div class="mainhead text-xs font-bold">#BiggBossOTT3</div>
+                    <div class="mainhead  text-gray-500 font-semibold text-[10px]">Trending with #SaiKetanRao
+                        #BiggBossOTT3
+                    </div>
+                    <div class="my-2">
+                        <div class="subhead flex text-gray-500 font-semibold text-[10px] justify-between ">
+                            Entertainment.Trending<span class="material-symbols-outlined h-4 w-4"
+                                style="font-size: 16px;">Steppers</span></div>
+                        <div class="mainhead text-xs font-bold">#BiggBossOTT3</div>
+                        <div class="mainhead   text-gray-500 font-semibold text-[10px]">Trending with
+                            #SaiKetanRao
+                            #BiggBossOTT3
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer">
+                <ul>
+                    <div class="flex  ml-6 p-1 w-9/12  justify-between">
+                        <li class="text-gray-600 text-xs font-semibold">Terms of Service</li>
+                        <li class="text-gray-600 text-xs font-semibold">Privacy Policy</li>
+                        <li class="text-gray-600 text-xs font-semibold">Cookie Policy</li>
+                    </div>
+                    <div class="flex ml-6 p-1 w-9/12 justify-between">
+                        <li class="text-gray-600 text-xs font-semibold">Accessibility</li>
+                        <li class="text-gray-600 text-xs font-semibold">Ads info</li>
+                        <li class="text-gray-600 text-xs font-semibold"> More</li>
+                        <li class="text-gray-600 text-xs font-semibold">&copy2024 X Corp</li>
+
+                </ul>
+            </div>
+
+
+
+        </div>
+
+
+
+</body>
+
+</html>
